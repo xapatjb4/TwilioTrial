@@ -1,0 +1,30 @@
+{
+  "name": "twiliotrial",
+  "version": "1.0.0",
+  "description": "Testing twilio api for Umass presentation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xapatjb4/TwilioTrial.git"
+  },
+  "keywords": [
+    "twilio",
+    "node",
+    "sms"
+  ],
+  "author": "xa.patjb4@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xapatjb4/TwilioTrial/issues"
+  },
+  "homepage": "https://github.com/xapatjb4/TwilioTrial#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "twilio": "^3.36.0"
+  }
+}
